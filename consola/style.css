@@ -1,0 +1,467 @@
+body {
+    background-color: rgb(80, 163, 163);
+    margin: 0;
+}
+
+#container {
+    background-color: rgb(85, 112, 161);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carcasa {
+    background-color: #bbee02;
+    border: 2px black solid;
+    background: linear-gradient(#aa9e9e, #c0b5b5);
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    width: 300px;
+    height: 485px;
+    border-radius: 10px;
+    border-bottom-left-radius: 10%10px;
+    border-bottom-right-radius: 18%70px;
+    border-top-left-radius: 20%20px;
+    border-top-right-radius: 20%20px;
+    box-shadow: 10px 7px 4px rgb(34, 34, 34);
+    padding-top: 14px;
+    position: relative;
+}
+
+.comp {
+    background-color: rgb(17, 20, 20);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#pantalla {
+    height: 210px;
+    border-radius: 10px;
+    border-top-left-radius: 10%10px;
+    border-top-right-radius: 10%10px;
+    border-bottom-right-radius: 18%70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 20px;
+    background: linear-gradient(#aa9e9e, #c0b5b5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#control {
+    height: 90px;
+    border-radius: 5px;
+    display: flex;
+    background: linear-gradient(#aa9e9e, #c0b5b5);
+}
+
+#audio {
+    height: 115px;
+    border-radius: 5px;
+    border-bottom-left-radius: 20%20px;
+    border-bottom-right-radius: 80%50px;
+    border-bottom-right-radius: 18%70px;
+    background: linear-gradient(#b1a8a8, #c0b5b5);
+}
+
+#letras1 {
+    left: 1px;
+    margin: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: blue;
+}
+
+#letras2 {
+    left: 1px;
+    margin: 1px;
+    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+#letras3 {
+    left: 1px;
+    margin: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+    color: blue;
+}
+
+#cuadrado {
+    width: 190px;
+    height: 160px;
+    background: linear-gradient(#aa9e9e, #c0b5b5);
+    padding: auto;
+    border-radius: 4px;
+}
+
+#texto-top-left {
+    position: absolute;
+    top: 1px;
+    left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cruz {
+    width: 100px;
+    height: 90px;
+    border-radius: 4px;
+    background: linear-gradient(#aa9e9e, #c0b5b5);
+    margin-right: 30px;
+}
+
+#boton {
+    width: 80px;
+    height: 90px;
+    background: linear-gradient(#aa9e9e, #c0b5b5);
+    border-radius: 4px;
+}
+
+#circle {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#RecHoriz {
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 3px 4px rgb(20, 15, 15);
+    background: linear-gradient(white, rgb(88, 86, 86), rgb(12, 12, 12), rgb(37, 35, 35), rgb(20, 18, 20));
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#RecVert {
+    width: 25px;
+    height: 80px;
+    background-color: black;
+    background: linear-gradient(rgb(255, 255, 255), rgb(51, 49, 49), rgb(12, 12, 12), rgb(24, 23, 23), rgb(12, 12, 12), rgb(37, 35, 35), rgb(20, 18, 20));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 2px 3px rgb(20, 15, 15);
+    ;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#textoBoton {
+    border: 2px black;
+}
+
+#boton1 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: linear-gradient(#cc8e8e, #be4c4c, #630606, #c21a1a);
+    margin: 12px;
+    border: 1px solid black;
+    box-shadow: 4px 3px 4px rgb(20, 15, 15);
+    transform: rotate(290deg);
+}
+
+#boton2 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: linear-gradient(#cc8e8e, #be4c4c, #630606, #c21a1a);
+    margin: 12px;
+    border: 1px solid black;
+    box-shadow: 4px 3px 4px rgb(20, 15, 15);
+    transform: rotate(290deg);
+}
+
+#botones {
+    background: linear-gradient(#979090, #a39e9e, #a7a0a0);
+    border-radius: 30px;
+    border: 1px solid rgba(22, 21, 21, 0.4);
+    transform: rotate(60deg);
+    width: 60px;
+    height: 112px;
+    margin: 0px 60px;
+}
+
+#select {
+    position: relative;
+    background: linear-gradient(#c4bdbd, #686464, #585454);
+    box-shadow: 1px 1px 2px rgb(20, 15, 15);
+    width: 30px;
+    height: 12px;
+    border-radius: 40%;
+    rotate: 310deg;
+    margin: 10px;
+    position: absolute;
+    top: 74%;
+    right: 37%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+#pause {
+    position: relative;
+    background: linear-gradient(#c4bdbd, #686464, #585454);
+    box-shadow: 1px 1px 2px rgb(20, 15, 15);
+    width: 30px;
+    height: 12px;
+    border-radius: 37%;
+    border: solid 1px;
+    rotate: 310deg;
+    margin: 10px;
+    position: absolute;
+    top: 74%;
+    left: 28.5%;
+    transform: translate(-50%, -50%);
+}
+
+#pausePalavra {
+    position: absolute;
+    color: blue;
+    top: 77%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    rotate: 310deg;
+}
+
+#selectPalavra {
+    position: absolute;
+    color: blue;
+    top: 77%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    rotate: 310deg;
+}
+
+#luz {
+    background: linear-gradient(rgb(187, 143, 143), rgb(238, 11, 11), #b34a4a, rgb(255, 0, 0));
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#refrig {
+    position: absolute;
+    rotate: 310deg;
+    width: 80px;
+    height: 60px;
+    top: 81.5%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    border: black 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#espaco {
+    width: 4.75px;
+    height: 60px;
+    border-radius: 40%;
+    background: linear-gradient(rgb(158, 154, 154), #474343, #2b2929);
+    border: solid black;
+}
+
+#circular {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: linear-gradient(#000000, #2c2b2b, #504f4f);
+}
+
+#botonA {
+    position: absolute;
+    rotate: 0deg;
+    font-size: 12px;
+    font-family: cursive;
+    color: black;
+    top: 20%;
+    left: 38%;
+}
+
+#botonB {
+    position: absolute;
+    rotate: 0deg;
+    font-size: 12px;
+    font-family: cursive;
+    color: black;
+    top: 24%;
+    left: 35%;
+}
+
+#power {
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7px;
+}
+
+#bolaDesligado {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(202, 195, 195), #3b3a3a, #141414);
+    box-shadow: 1px 2px 2px rgb(20, 15, 15);
+    z-index: 1;
+    border: 2px black;
+}
+
+#bolaLigado {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgb(202, 195, 195), #3b3a3a, #141414);
+    box-shadow: 1px 1px 1px rgb(20, 15, 15);
+    z-index: 1;
+    border: 2px black;
+}
+
+#borderOnOff {
+    position: absolute;
+    border: 0.5px solid black;
+    border-radius: 20%;
+    width: 100px;
+    height: 14px;
+    left: 10%;
+    top: 0.9%;
+    background: linear-gradient(#b6b3b3, #e4dddd, #b6b3b3);
+}
+
+#phones {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background: linear-gradient(#b6b3b3, #e4dddd, #b6b3b3);
+    top: 95%;
+    left: 40%;
+    border: 1px solid black;
+    border-radius: 20%;
+    font-size: 10px;
+    align-items: center;
+}
+
+#NintLogo2 {
+    position: absolute;
+    color: rgb(165, 146, 146, 0.9);
+    width: 80px;
+    height: 14px;
+    left: 41.5%;
+    top: 43.25%;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+
+#select:hover {
+    background: linear-gradient(#d1d4c8, #c4bdbd, #585454);
+    box-shadow: 1px 1px rgb(107, 102, 102);
+}
+
+#pause:hover {
+    background: linear-gradient(#daddd1, #c4bdbd, #585454);
+    box-shadow: 1px 1px rgb(100, 96, 96);
+}
+
+#boton1:hover {
+    background: linear-gradient(#753c3c, #c53636, #b41919);
+    box-shadow: 2px 1px 1px rgb(82, 77, 77);
+}
+
+#boton2:hover {
+    background: linear-gradient(#753c3c, #c53636, #b41919);
+    box-shadow: 2px 1px 1px rgb(82, 77, 77);
+}
+
+#bolaLigado:hover {
+    background: linear-gradient(#df1620, #d41515, #eb5757);
+    box-shadow: 2px 1px 1px rgb(82, 77, 77);
+}
+
+#bolaDesligado:hover {
+    background: linear-gradient(#16c24a, #489248, #00791e);
+    box-shadow: 2px 1px 1px rgb(82, 77, 77);
+}
+
+#RecHoriz:hover {
+    box-shadow: 0px 2px 2px rgb(41, 39, 39);
+    background: linear-gradient(rgb(161, 159, 159), rgb(92, 89, 89), rgb(12, 12, 12), rgb(37, 35, 35), rgb(20, 18, 20));
+}
+
+#RecVert:hover {
+    box-shadow: 2px 2px 2px rgb(22, 21, 21);
+    background: linear-gradient(rgb(201, 197, 197), rgb(78, 76, 76), rgb(5, 5, 5), rgb(24, 23, 23), rgb(12, 12, 12), rgb(37, 35, 35), rgb(20, 18, 20));
+}
+
+#rectangulo1 {
+    position: absolute;
+    width: 75px;
+    height: 2px;
+    background-color: red;
+    z-index: 1;
+    left: 60.5%;
+    top: 44%;
+}
+
+#rectangulo2 {
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: blue;
+    z-index: 1;
+    left: 7%;
+    top: 44%;
+}
+
+#rectangulo3 {
+    position: absolute;
+    width: 75px;
+    height: 2px;
+    background-color: blue;
+    z-index: 1;
+    left: 60.5%;
+    top: 45%;
+}
+
+#rectangulo4 {
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(255, 30, 0);
+    z-index: 1;
+    left: 7%;
+    top: 45%;
+}
