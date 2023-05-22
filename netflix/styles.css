@@ -1,0 +1,233 @@
+#container {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7fr 3fr 3fr 3fr;
+    grid-gap: 3px;
+}
+
+#bx2 {
+    background-color: rgb(18, 19, 17);
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#SupDer {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+#SupIzq {
+    position: absolute;
+    top: 45px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+#NFlogo {
+    width: 65px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+#SupIzq img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+#SupIzq button {
+    margin-right: 10px;
+}
+
+.izquierda {
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: white;
+    border-color: black;
+}
+
+#lupa,
+#sino {
+    width: 40px;
+    height: 40px;
+}
+
+#playbuttons {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+#playtamanho {
+    width: 80px;
+    height: 80px;
+    padding: 10x, 10px, 10px, 10px;
+}
+
+#itamanho {
+    width: 60px;
+    height: 80px;
+}
+
+#bx2 button {
+    background-color: transparent;
+    border: transparent;
+    font-size: 18px;
+}
+
+.changeposition {
+    font-size: 14px;
+    padding: 15px 20px;
+    margin-right: 1px;
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bx-footer1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer3 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer4 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer5 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer6 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer7 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer8 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer9 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer10 {
+    grid-column: 5/6;
+    grid-row: 4/5;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer11 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer12 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer13 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer14 {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.bx-footer15 {
+    grid-column: 5/6;
+    grid-row: 5/6;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+#expand:hover {
+    transform: scale(1.3);
+}
